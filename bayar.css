@@ -1,0 +1,52 @@
+body {
+    background: #f8fafd;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.bayar-container {
+    max-width: 350px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 24px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+h2 {
+    text-align: center;
+    color: #232f3e;
+    margin-bottom: 24px;
+}
+.form-row {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 6px;
+    color: #232f3e;
+    font-weight: 500;
+}
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+input[readonly] {
+    background: #f0f0f0;
+}
+.btn-bayar {
+    width: 100%;
+    padding: 12px 0;
+    background: #ff4f8b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+.btn-bayar:hover {
+    background: #232f3e;
+}
